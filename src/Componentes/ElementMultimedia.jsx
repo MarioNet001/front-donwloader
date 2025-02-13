@@ -37,7 +37,9 @@ export default function ElementMultimedia({ media }) {
               <div key={index} className="  w-full h-40 rounded-xl mb-6">
               {item.type === 'image' && (
                 <div className="w-24 h-24 rounded-xl overflow-hidden">
-                   <img src={item.path} alt="Preview" className="" />
+                  <a href={item.path} download target="_blank" className="media-preview w-full h-full rounded-xl">
+                  <img src={item.path} alt="Preview" className="" />
+                  </a>
                 </div>
                
               )}           
