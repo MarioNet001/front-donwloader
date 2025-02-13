@@ -3,7 +3,7 @@ import ElementMultimedia from './Componentes/ElementMultimedia'
 import './App.css'
 import Loader from './Componentes/Loader'
 import Footer from './Componentes/Footer'
-import Header from './Componentes/Header'
+
 
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
   const [loading, setLoading] = useState(false)
 
   const handleSubmit = async (e) =>{
+    console.log(media);
     e.preventDefault()
     setLoading(true)
     try {
@@ -41,12 +42,11 @@ function App() {
  
       
       { loading ? 
-      <div className='flex container mx-auto flex-col items-center justify-center  font-mono sm:text-sm xs:text-xs mt-40 pb-40'>
+      <div className='flex container mx-auto flex-col content-center justify-center  font-mono sm:text-sm xs:text-xs mt-40 pb-40'>
         <Loader></Loader>
       </div>
         :
         <div className='flex container mx-auto flex-col items-center justify-center font-mono sm:text-sm xs:text-xs mt-40'>
-          <Header></Header>
           <h1 className='title m-4 '>Buscador de contenido multimedia</h1>
           <p className='description m-5 '>Ingresa la URL de una página web y se extraerá el contenido multimedia de la misma. (tambien funciona para youtube)</p>
           <form onSubmit={handleSubmit} className='input-form'>
@@ -58,9 +58,9 @@ function App() {
           required
           className='input '
         />
-        <button id='btn' class="button" disabled={loading}>{loading ?"Cargando....." :"Buscar "}</button>
+        <button id='btn' className="button" disabled={loading}>{loading ?"Cargando....." :"Buscar "}</button>
       </form>
-      <ElementMultimedia media={media} />
+        <ElementMultimedia media={media} />
         </div>
         
         }

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Loader = () => {
   return (
     <StyledWrapper>
-      <div className="loader-wrapper">
+      <div className="loader-wrapper ">
         <div className="packman" />
         <div className="dots">
           <div className="dot" />
@@ -21,9 +21,9 @@ const StyledWrapper = styled.div`
     position: relative;
     top: 0;
     left: 0;
-    bottom: 0;
+    bottom: 50vh;
     right: 0;
-    margin: auto;
+    margin: 18rem;
   }
 
   .loader-wrapper .packman::before {

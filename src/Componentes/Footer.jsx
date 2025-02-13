@@ -23,12 +23,12 @@ export default function Footer(){
                 <ul className="flex items-center justify-center space-x-8 xl:justify-end text-default">
                     <li>
                         <a name = "whatsApp" target="_blank"  href="https://wa.me/525579154175?text=Como%20va%20el%20d%C3%ADa%20">
-                        <svg width="1em" height="1em" className="size-8" data-icon="Whatsapp">   <symbol id="ai:local:Whatsapp" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"><path d="m3 21 1.65-3.8a9 9 0 1 1 3.4 2.9z"></path><path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0za5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"></path></g></symbol><use href="#ai:local:Whatsapp"></use>  </svg></a>
+                        <svg width="1em" height="1em" className="size-8" data-icon="Whatsapp">   <symbol id="ai:local:Whatsapp" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" ><path d="m3 21 1.65-3.8a9 9 0 1 1 3.4 2.9z"></path><path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0za5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"></path></g></symbol><use href="#ai:local:Whatsapp"></use>  </svg></a>
                     </li>
                     
                     <li>
                         <a name = "Correo"  target="_blank" href="mailto:to325712@gmail.com">
-                        <svg width="1em" height="1em" className="size-8" data-icon="Mail">   <symbol id="ai:local:Mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"><path d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><path d="m3 7 9 6 9-6"></path></g></symbol><use href="#ai:local:Mail"></use>  </svg>
+                        <svg width="1em" height="1em" className="size-8" data-icon="Mail">   <symbol id="ai:local:Mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor"  ><path d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><path d="m3 7 9 6 9-6"></path></g></symbol><use href="#ai:local:Mail"></use>  </svg>
                         </a>
                     </li>
                     <li>

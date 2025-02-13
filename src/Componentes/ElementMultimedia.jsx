@@ -55,7 +55,7 @@ export default function ElementMultimedia({ media }) {
             </div>          
           ))
         ) : (
-          <p>No se encontró contenido multimedia.</p>
+          <p></p>
         )}
       </div>
   )
