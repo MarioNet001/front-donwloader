@@ -54,6 +54,7 @@ function App() {
           type='text'
           placeholder="Ingresa la URL de la web"
           value={url}
+          onFocus={(e)=> e.target.value = ""}
           onChange={(e) => setUrl(e.target.value)}
           required
           className='input '
